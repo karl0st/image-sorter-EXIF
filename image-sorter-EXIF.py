@@ -1,4 +1,4 @@
-import os, shutil, time
+import os, shutil
 from exif import Image
 
 cur_dir = os.getcwd() + "\\"
@@ -54,4 +54,3 @@ for file in os.listdir():
             if not os.path.exists(cur_dir + "unsorted"):
                 os.mkdir(cur_dir + "unsorted")
             shutil.move(cur_dir + file, cur_dir + "unsorted" + "\\" + file)
-    time.sleep(60)
