@@ -1,2 +1,6 @@
 # image-sorter-EXIF
-Python image sorter by EXIF data
+
+### Output format
+
+yy-mm-dd hh-nn-ss
+`22-05-29 22:22:22`
