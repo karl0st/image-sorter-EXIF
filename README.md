@@ -1,5 +1,12 @@
 # image-sorter-EXIF
 
+### Requirements
+
+1. Install [pip](https://pip.pypa.io/en/stable/installation/)
+2. Run `pip install -r requirements.txt`
+
+### Usage
+
 You need to comment/uncomment each step manually e.g. for renaming: <br>
 ```py
 rename_image(file)
