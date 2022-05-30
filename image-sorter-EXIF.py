@@ -50,7 +50,7 @@ for file in os.listdir():
         if os.path.isdir(file):
             print("'" + file + "' is a directory and cannot be moved.")
         else:
-            print("'" + file + "'" + "is not in JPG format. Moving into unsorted.")
+            print("'" + file + "'" + "is not in JPG format. Moving into 'unsorted'.")
             if not os.path.exists(cur_dir + "unsorted"):
                 os.mkdir(cur_dir + "unsorted")
             shutil.move(cur_dir + file, cur_dir + "unsorted" + "\\" + file)
